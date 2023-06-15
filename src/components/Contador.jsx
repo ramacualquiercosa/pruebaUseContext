@@ -16,8 +16,8 @@ function Contador(){
    
    return(
         <div>
-          <h1>el contador total es{contador}</h1>
-          <button onClick={handleChangeCounter}>BOTON</button>
+          <h1 className='p-5'>el contador parcial es {contador}</h1>
+          <button className='p-5' onClick={handleChangeCounter}>BOTON PARA SUMAR</button>
         </div>
     )
 }

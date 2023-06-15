@@ -7,7 +7,7 @@ import { ContadorContext } from '../context/contador';
     const {contador} = useContext(ContadorContext) 
     
   return (
-    <div>ContadorTotal: {contador}</div>
+    <div className='p-5'>ContadorTotal: {contador}</div>
   )
 }
 
