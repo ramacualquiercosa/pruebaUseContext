@@ -8,6 +8,7 @@ function App() {
   return (
     <>
     <Nav/>
+    <hr></hr>
     <Routes>
     <Route path="/" element={<Contador/>}/>
     <Route path="/contotal" element={<ContadorTotal/>}/>
